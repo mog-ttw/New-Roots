@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet New Roots' corporate partners and learn how you can hire talented refugee graduates." />
+  <title>Partners | New Roots</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#1f6f3c',
+            'forest-dark': '#145a2c',
+            mint: '#a6f2c7',
+            'mint-light': '#e8fff3',
+            slate: '#47515c',
+            'slate-dark': '#1f2937'
+          },
+          fontFamily: {
+            display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased bg-white text-slate-dark font-body">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
+      <a href="index.html" class="text-2xl font-bold tracking-tight text-forest font-display">New Roots</a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Home</a>
+        <a href="about.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">About Us</a>
+        <a href="services.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Our Program</a>
+        <a href="partners.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Partners</a>
+        <a href="stories.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Success Stories</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="contact.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-forest shadow-soft hover:bg-mint-light">
+          Partner With Us
+        </a>
+      </div>
+      <button id="menu-toggle" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white p-3 text-forest transition hover:border-forest hover:text-forest md:hidden">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white px-4 py-6 md:hidden">
+      <nav class="space-y-4">
+        <a href="index.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Home</a>
+        <a href="about.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">About Us</a>
+        <a href="services.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Our Program</a>
+        <a href="partners.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest bg-mint-light">Partners</a>
+        <a href="stories.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Success Stories</a>
+        <a href="contact.html" class="block rounded-3xl bg-white border-2 border-forest px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition mt-4">Partner With Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Partners Hero -->
+  <section class="py-20 sm:py-32 bg-gradient-to-b from-mint/20 to-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 page-content">
+      <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+        <div>
+          <span class="inline-flex rounded-full bg-mint px-5 py-2.5 text-sm font-bold uppercase tracking-[0.3em] text-forest animate-fade-in-up">
+            Corporate Partnership
+          </span>
+          <h1 class="mt-8 text-5xl sm:text-6xl font-bold tracking-tight text-slate-dark font-display animate-fade-in-up animate-delay-1">
+            Access Vetted <span class="text-gradient">Creative Talent</span>
+          </h1>
+          <p class="mt-8 text-xl leading-8 text-slate animate-fade-in-up animate-delay-2">
+            New Roots partners with companies that want to hire motivated designers, editors, and storytellers who have completed hands-on training and are ready to contribute immediately.
+          </p>
+        </div>
+        <div class="card-hover rounded-[2.5rem] bg-white p-10 shadow-glow border border-slate-200 animate-fade-in-up animate-delay-3">
+          <p class="text-sm font-bold uppercase tracking-[0.3em] text-slate mb-6">Why Partner?</p>
+          <ul class="space-y-6 text-lg text-slate">
+            <li class="flex items-start gap-4">
+              <span class="mt-1.5 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Access creative professionals with real training and drive</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1.5 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Support social impact through meaningful employment</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1.5 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Build a pipeline of diverse creative talent</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1.5 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Ongoing support for smooth onboarding and integration</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted Partners -->
+  <section class="py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-sm font-bold uppercase tracking-[0.3em] text-forest mb-4">Trusted By</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-dark font-display">Companies Who Believe in Our Graduates</h2>
+      </div>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Aurora Labs</div>
+          <p class="text-slate">Tech Innovation Partner</p>
+        </div>
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Greenline Media</div>
+          <p class="text-slate">Digital Marketing Agency</p>
+        </div>
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Atlas Creative</div>
+          <p class="text-slate">Brand Design Studio</p>
+        </div>
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Echo Commerce</div>
+          <p class="text-slate">E-commerce Platform</p>
+        </div>
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Horizon Impact</div>
+          <p class="text-slate">Social Enterprise</p>
+        </div>
+        <div class="card-hover rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-center shadow-soft">
+          <div class="text-4xl font-bold text-forest font-display mb-2">Vertex Studio</div>
+          <p class="text-slate">Video Production Company</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner Form -->
+  <section class="py-24 bg-slate-50">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <div class="rounded-[2.5rem] border border-slate-200 bg-white p-10 shadow-soft">
+        <div class="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 class="text-3xl sm:text-4xl font-bold text-slate-dark font-display">Start a Hiring Partnership</h2>
+            <p class="mt-3 text-lg text-slate">Reach out and let us introduce you to talent ready for creative assignments.</p>
+          </div>
+          <a href="contact.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-forest px-8 py-4 text-base font-semibold text-white shadow-soft">
+            Contact Our Team
+          </a>
+        </div>
+        <form class="grid gap-6 sm:grid-cols-2">
+          <input type="text" placeholder="Company name" class="rounded-3xl border border-slate-300 bg-slate-50 px-6 py-4 text-lg text-slate outline-none transition focus:border-forest w-full" />
+          <input type="email" placeholder="Work email" class="rounded-3xl border border-slate-300 bg-slate-50 px-6 py-4 text-lg text-slate outline-none transition focus:border-forest w-full" />
+          <textarea rows="4" placeholder="Tell us your hiring goals" class="col-span-full rounded-3xl border border-slate-300 bg-slate-50 px-6 py-4 text-lg text-slate outline-none transition focus:border-forest w-full"></textarea>
+          <button type="submit" class="col-span-full btn-primary rounded-full bg-forest px-10 py-5 text-lg font-semibold text-white shadow-soft hover:bg-forest-dark">
+            Start a Partnership
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 py-12 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-2xl font-bold text-forest font-display mb-2">New Roots</p>
+          <p class="text-slate">© 2026 New Roots. All rights reserved.</p>
+        </div>
+        <div class="flex flex-wrap gap-6">
+          <a href="index.html" class="text-slate hover:text-forest font-semibold transition">Home</a>
+          <a href="about.html" class="text-slate hover:text-forest font-semibold transition">About</a>
+          <a href="services.html" class="text-slate hover:text-forest font-semibold transition">Program</a>
+          <a href="contact.html" class="text-slate hover:text-forest font-semibold transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

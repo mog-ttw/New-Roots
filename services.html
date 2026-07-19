@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore New Roots' comprehensive training program for refugees - graphic design, photo editing, and video editing courses." />
+  <title>Our Program | New Roots</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#1f6f3c',
+            'forest-dark': '#145a2c',
+            mint: '#a6f2c7',
+            'mint-light': '#e8fff3',
+            slate: '#47515c',
+            'slate-dark': '#1f2937'
+          },
+          fontFamily: {
+            display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased bg-white text-slate-dark font-body">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
+      <a href="index.html" class="text-2xl font-bold tracking-tight text-forest font-display">New Roots</a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Home</a>
+        <a href="about.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">About Us</a>
+        <a href="services.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Our Program</a>
+        <a href="partners.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Partners</a>
+        <a href="stories.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Success Stories</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="contact.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-forest shadow-soft hover:bg-mint-light">
+          Partner With Us
+        </a>
+      </div>
+      <button id="menu-toggle" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white p-3 text-forest transition hover:border-forest hover:text-forest md:hidden">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white px-4 py-6 md:hidden">
+      <nav class="space-y-4">
+        <a href="index.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Home</a>
+        <a href="about.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">About Us</a>
+        <a href="services.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest bg-mint-light">Our Program</a>
+        <a href="partners.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Partners</a>
+        <a href="stories.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Success Stories</a>
+        <a href="contact.html" class="block rounded-3xl bg-white border-2 border-forest px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition mt-4">Partner With Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Program Hero -->
+  <section class="py-20 sm:py-32">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 page-content">
+      <div class="text-center max-w-4xl mx-auto">
+        <span class="inline-flex rounded-full bg-mint px-5 py-2.5 text-sm font-bold uppercase tracking-[0.3em] text-forest animate-fade-in-up">
+          Our Program
+        </span>
+        <h1 class="mt-8 text-5xl sm:text-6xl font-bold tracking-tight text-slate-dark font-display animate-fade-in-up animate-delay-1">
+          A <span class="text-gradient">3-Step Journey</span> to Success
+        </h1>
+        <p class="mt-8 text-xl leading-8 text-slate animate-fade-in-up animate-delay-2">
+          From recruitment to employment, every stage is carefully designed to elevate refugee talent and build lasting careers.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Steps -->
+  <section class="py-24 bg-gradient-to-b from-white to-mint/20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-8 lg:grid-cols-3">
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-white p-10 shadow-soft">
+          <div class="inline-flex rounded-full bg-mint px-6 py-3 text-sm font-bold uppercase tracking-[0.3em] text-forest mb-6">Step 1</div>
+          <div class="text-5xl mb-6">🎯</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-4">Recruit</h3>
+          <p class="text-lg text-slate leading-8">
+            We work closely with community organizations to identify resilient, motivated individuals with the drive to succeed in creative fields.
+          </p>
+        </div>
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-white p-10 shadow-soft">
+          <div class="inline-flex rounded-full bg-mint px-6 py-3 text-sm font-bold uppercase tracking-[0.3em] text-forest mb-6">Step 2</div>
+          <div class="text-5xl mb-6">📚</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-4">Train</h3>
+          <p class="text-lg text-slate leading-8">
+            Intensive, hands-on training in graphic design, photo editing, and video editing using industry-standard tools and personalized mentorship.
+          </p>
+        </div>
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-white p-10 shadow-soft">
+          <div class="inline-flex rounded-full bg-mint px-6 py-3 text-sm font-bold uppercase tracking-[0.3em] text-forest mb-6">Step 3</div>
+          <div class="text-5xl mb-6">💼</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-4">Employ</h3>
+          <p class="text-lg text-slate leading-8">
+            We partner with companies to place graduates in meaningful, long-term creative roles where they can contribute and grow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum -->
+  <section class="py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-16 text-center max-w-3xl mx-auto">
+        <p class="text-sm font-bold uppercase tracking-[0.3em] text-forest mb-4">Curriculum Highlights</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-dark font-display">Practical Creative Skills That Meet Modern Needs</h2>
+      </div>
+      <div class="grid gap-8 lg:grid-cols-3">
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-slate-50 p-10 shadow-soft">
+          <div class="mb-8 flex h-20 w-20 items-center justify-center rounded-3xl bg-mint text-forest text-4xl font-bold">G</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-6">Graphic Design</h3>
+          <ul class="space-y-4 text-lg text-slate">
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Brand identity & logo design</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Typography & layout fundamentals</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Marketing collateral & social media</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Packaging & digital assets</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Adobe Creative Suite mastery</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-slate-50 p-10 shadow-soft">
+          <div class="mb-8 flex h-20 w-20 items-center justify-center rounded-3xl bg-mint text-forest text-4xl font-bold">P</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-6">Photo Editing</h3>
+          <ul class="space-y-4 text-lg text-slate">
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Color correction & grading</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Retouching & compositing</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Commercial photography workflows</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Brand-consistent imagery</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Photoshop & Lightroom expertise</span>
+            </li>
+          </ul>
+        </div>
+        <div class="card-hover rounded-[2.5rem] border border-slate-200 bg-slate-50 p-10 shadow-soft">
+          <div class="mb-8 flex h-20 w-20 items-center justify-center rounded-3xl bg-mint text-forest text-4xl font-bold">V</div>
+          <h3 class="text-3xl font-bold text-slate-dark font-display mb-6">Video Editing</h3>
+          <ul class="space-y-4 text-lg text-slate">
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Storytelling & pacing</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Motion graphics & transitions</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Audio syncing & mixing</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Export workflows for web & social</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+              <span>Premiere Pro & After Effects</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 bg-mint/20">
+    <div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl sm:text-5xl font-bold text-slate-dark font-display mb-6">Ready to Transform Talent Into Opportunity?</h2>
+      <p class="text-xl text-slate mb-10">Partner with us to hire talented graduates or support our program.</p>
+      <a href="contact.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-forest px-10 py-5 text-lg font-semibold text-white shadow-soft">
+        Get Started Today
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 py-12 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-2xl font-bold text-forest font-display mb-2">New Roots</p>
+          <p class="text-slate">© 2026 New Roots. All rights reserved.</p>
+        </div>
+        <div class="flex flex-wrap gap-6">
+          <a href="index.html" class="text-slate hover:text-forest font-semibold transition">Home</a>
+          <a href="about.html" class="text-slate hover:text-forest font-semibold transition">About</a>
+          <a href="services.html" class="text-slate hover:text-forest font-semibold transition">Program</a>
+          <a href="contact.html" class="text-slate hover:text-forest font-semibold transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

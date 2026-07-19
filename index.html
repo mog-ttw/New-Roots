@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="New Roots empowers refugees through digital training, helping refugees gain graphic design, photo editing, and video editing skills to access employment opportunities." />
+  <title>New Roots | Empowering Refugees Through Digital Skills</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#1f6f3c',
+            'forest-dark': '#145a2c',
+            mint: '#a6f2c7',
+            'mint-light': '#e8fff3',
+            slate: '#47515c',
+            'slate-dark': '#1f2937'
+          },
+          fontFamily: {
+            display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+            body: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="antialiased bg-white text-slate-dark font-body">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
+      <a href="index.html" class="text-2xl font-bold tracking-tight text-forest font-display">New Roots</a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="index.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Home</a>
+        <a href="about.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">About Us</a>
+        <a href="services.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Our Program</a>
+        <a href="partners.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Partners</a>
+        <a href="stories.html" class="text-sm font-semibold text-forest hover:text-forest-dark transition">Success Stories</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="contact.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-forest shadow-soft hover:bg-mint-light">
+          Partner With Us
+        </a>
+      </div>
+      <button id="menu-toggle" class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white p-3 text-forest transition hover:border-forest hover:text-forest md:hidden">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-slate-200 bg-white px-4 py-6 md:hidden">
+      <nav class="space-y-4">
+        <a href="index.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest bg-mint-light">Home</a>
+        <a href="about.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">About Us</a>
+        <a href="services.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Our Program</a>
+        <a href="partners.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Partners</a>
+        <a href="stories.html" class="block rounded-3xl px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition">Success Stories</a>
+        <a href="contact.html" class="block rounded-3xl bg-white border-2 border-forest px-5 py-4 text-base font-semibold text-forest hover:bg-mint-light transition mt-4">Partner With Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden py-20 sm:py-32">
+    <div class="hero-neon hero-neon-1"></div>
+    <div class="hero-neon hero-neon-2"></div>
+    <div class="hero-neon hero-neon-3"></div>
+    <div class="hero-neon hero-neon-4"></div>
+    <div class="hero-neon hero-neon-5"></div>
+    <div class="hero-neon hero-neon-6"></div>
+    <div class="hero-neon hero-neon-7"></div>
+    <div class="hero-neon hero-neon-8"></div>
+    
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 page-content">
+      <div class="grid gap-16 lg:grid-cols-2 lg:items-center">
+        <div class="space-y-8">
+          <span class="inline-flex rounded-full bg-mint px-5 py-2.5 text-sm font-bold uppercase tracking-[0.3em] text-forest animate-fade-in-up">
+            Empowering Refugees
+          </span>
+          <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-dark font-display animate-fade-in-up animate-delay-1">
+            Cultivating Talent.<br />
+            <span class="text-gradient">Rebuilding Futures.</span>
+          </h1>
+          <p class="max-w-2xl text-xl leading-8 text-slate animate-fade-in-up animate-delay-2">
+            At New Roots, we recruit refugees, equip them with high-end digital skills, and connect them with global employment opportunities that last.
+          </p>
+          <div class="flex flex-col gap-4 sm:flex-row sm:items-center animate-fade-in-up animate-delay-3">
+            <a href="partners.html" class="btn-primary inline-flex items-center justify-center rounded-full bg-forest px-8 py-4 text-base font-semibold text-white shadow-soft">
+              Hire Our Graduates
+            </a>
+            <a href="stories.html" class="btn-secondary inline-flex items-center justify-center rounded-full border-2 border-slate-300 bg-white px-8 py-4 text-base font-semibold text-slate-dark hover:border-forest hover:text-forest">
+              Learn Our Impact
+            </a>
+          </div>
+        </div>
+
+        <div class="relative flex items-center justify-center animate-fade-in-up animate-delay-4">
+          <div class="relative w-full max-w-xl rounded-[2.5rem] border border-slate-200 bg-gradient-to-br from-white via-mint/30 to-forest/10 p-8 shadow-glow noise-overlay">
+            <div class="relative z-10 rounded-[2rem] bg-white/90 p-10 shadow-xl">
+              <p class="text-sm font-bold uppercase tracking-[0.35em] text-forest">Design training powered by care</p>
+              <h2 class="mt-6 text-3xl font-bold text-slate-dark font-display">A learning experience built for lasting impact.</h2>
+              <div class="mt-8 space-y-5 text-slate">
+                <p class="text-lg">We combine mentorship, industry tools, and real-world projects to help trainees earn with confidence.</p>
+                <ul class="space-y-4">
+                  <li class="flex items-start gap-4">
+                    <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+                    <span class="text-lg">Recruitment rooted in dignity and community trust</span>
+                  </li>
+                  <li class="flex items-start gap-4">
+                    <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+                    <span class="text-lg">Training designed for creative, sustainable careers</span>
+                  </li>
+                  <li class="flex items-start gap-4">
+                    <span class="mt-1 h-3 w-3 rounded-full bg-forest"></span>
+                    <span class="text-lg">Placement with trusted, supportive partners</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-20 bg-gradient-to-b from-white to-mint/20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div class="card-hover rounded-[2rem] bg-white p-10 text-center shadow-soft border border-slate-100">
+          <p class="text-6xl font-bold text-gradient font-display">100+</p>
+          <p class="mt-4 text-lg font-semibold text-slate">Trainees Empowered</p>
+        </div>
+        <div class="card-hover rounded-[2rem] bg-white p-10 text-center shadow-soft border border-slate-100">
+          <p class="text-6xl font-bold text-gradient font-display">95%</p>
+          <p class="mt-4 text-lg font-semibold text-slate">Job Placement Rate</p>
+        </div>
+        <div class="card-hover rounded-[2rem] bg-white p-10 text-center shadow-soft border border-slate-100">
+          <p class="text-6xl font-bold text-gradient font-display">40+</p>
+          <p class="mt-4 text-lg font-semibold text-slate">Corporate Partners</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Links Section -->
+  <section class="py-24">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-sm font-bold uppercase tracking-[0.3em] text-forest mb-4">Explore Our Work</p>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-dark font-display">Discover How We Make a Difference</h2>
+      </div>
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <a href="about.html" class="card-hover group rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-left shadow-soft">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-forest text-white text-3xl font-bold">
+            🌱
+          </div>
+          <h3 class="text-2xl font-bold text-slate-dark font-display mb-3 group-hover:text-forest transition">About Us</h3>
+          <p class="text-slate">Learn our story, mission, and the team behind New Roots.</p>
+        </a>
+        <a href="services.html" class="card-hover group rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-left shadow-soft">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-forest text-white text-3xl font-bold">
+            📚
+          </div>
+          <h3 class="text-2xl font-bold text-slate-dark font-display mb-3 group-hover:text-forest transition">Our Program</h3>
+          <p class="text-slate">Explore our comprehensive training curriculum and process.</p>
+        </a>
+        <a href="partners.html" class="card-hover group rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-left shadow-soft">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-forest text-white text-3xl font-bold">
+            🤝
+          </div>
+          <h3 class="text-2xl font-bold text-slate-dark font-display mb-3 group-hover:text-forest transition">Partners</h3>
+          <p class="text-slate">Meet the companies who trust and hire our graduates.</p>
+        </a>
+        <a href="stories.html" class="card-hover group rounded-[2rem] border border-slate-200 bg-mint/10 p-8 text-left shadow-soft">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-forest text-white text-3xl font-bold">
+            ✨
+          </div>
+          <h3 class="text-2xl font-bold text-slate-dark font-display mb-3 group-hover:text-forest transition">Success Stories</h3>
+          <p class="text-slate">Read inspiring stories from our graduates and their journeys.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 py-12 bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-2xl font-bold text-forest font-display mb-2">New Roots</p>
+          <p class="text-slate">© 2026 New Roots. All rights reserved.</p>
+        </div>
+        <div class="flex flex-wrap gap-6">
+          <a href="index.html" class="text-slate hover:text-forest font-semibold transition">Home</a>
+          <a href="about.html" class="text-slate hover:text-forest font-semibold transition">About</a>
+          <a href="services.html" class="text-slate hover:text-forest font-semibold transition">Program</a>
+          <a href="contact.html" class="text-slate hover:text-forest font-semibold transition">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
